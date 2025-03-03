@@ -11,6 +11,7 @@ import About from './pages/About';
 
 // layouts
 import RootLayout from './layouts/RootLayout';
+import HelpLayout from './layouts/HelpLayout';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,10 @@ const router = createBrowserRouter(
       {/* Index specifies that this is the home page */}
       <Route index element={<Home />}/> 
       <Route path="about" element={<About />}/>
+      <Route path="help" element={<HelpLayout />}>
+        <Route path="faq" />
+        <Route path="contact"></Route>
+      </Route>
     </Route>
   )
 )

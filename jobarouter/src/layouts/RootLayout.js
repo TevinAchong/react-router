@@ -9,6 +9,7 @@ export default function RootLayout() {
                 {/* As opposed to Link, NavLink gives you a class attribute for your a tag */}
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="about">About</NavLink>
+                <NavLink to="help">Help</NavLink>
             </nav>
         </header>
 
