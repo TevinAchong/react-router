@@ -1,36 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
 
 :root {
-  --primary: #bc4123;
-  --secondary: #2b3452;
+  --primary: #bc4123; /* Inspired by Akatsuki red */
+  --secondary: #1c1e29; /* Darker for a more serious ninja vibe */
+  --accent: #e8a628; /* Hokage gold */
+  --light: #f4e1c6; /* Muted parchment-like color */
+  --shadow: rgba(0, 0, 0, 0.2);
 }
+
 body {
   margin: 0;
   padding: 20px;
-  font-family: "Poppins";
+  font-family: 'Noto Serif JP', serif;
   background: var(--secondary);
+  color: var(--light);
+  line-height: 1.6;
 }
+
 * {
-  color: #fff;
   margin: 0;
+  box-sizing: border-box;
 }
+
 p {
   margin: 20px 0;
+  font-size: 1.1rem;
+  color: var(--light);
 }
+
 button {
   border: 0;
-  padding: 8px;
-  border-radius: 4px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   color: white;
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary) 40%, #a32b16);
+  box-shadow: 2px 2px 5px var(--shadow);
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
+button:hover {
+  background: linear-gradient(135deg, #a32b16 40%, var(--primary));
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
 /* navbar */
+/* Navbar */
+header {
+  background: rgba(0, 0, 0, 0.3); /* Subtle transparency for a ninja-like aesthetic */
+  padding: 15px 0;
+  backdrop-filter: blur(8px);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar Title */
+header nav h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--primary);
+  color: var(--accent);
+  padding-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav h1:hover {
+  color: var(--primary);
+  border-bottom-color: var(--accent);
+}
+
+/* Navbar Links */
+header nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  color: var(--light);
+}
+
+header nav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--accent);
+}
+
+header nav a.active {
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 
 /* page content */
-
+.main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
 
 /* help layout */
 
