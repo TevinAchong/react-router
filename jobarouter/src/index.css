@@ -118,9 +118,119 @@ header nav a.active {
 }
 
 /* help layout */
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+  background: rgba(0, 0, 0, 0.2); /* Slight transparency for a ninja-like aesthetic */
+  padding: 12px 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+}
+
+.help-layout nav a {
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--light);
+  border: 2px solid var(--light);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.help-layout nav a.active {
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
 
 
 /* faq */
+.faq .question {
+  background: rgba(0, 0, 0, 0.3); /* Slightly deeper transparency for a shadowy, shinobi feel */
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 20px 0;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.faq .question:hover {
+  background: rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.faq .question h3 {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.faq .question p {
+  font-size: 1rem;
+  color: var(--light);
+  margin-top: 8px;
+}
+
+
+
+/* Contact Form */
+form {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.2); /* Subtle ninja-inspired transparency */
+  padding: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+form input, form label span, form textarea {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+form input, form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--light);
+  transition: all 0.3s ease-in-out;
+}
+
+form input:focus, form textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+form label span {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
 
 
 /* careers list */
