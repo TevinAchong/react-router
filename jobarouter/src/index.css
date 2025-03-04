@@ -234,7 +234,38 @@ form textarea {
 
 
 /* careers list */
+.careers > a {
+  display: block;
+  background: rgba(0, 0, 0, 0.3); /* Slightly darker for a stealthy shinobi feel */
+  padding: 20px;
+  border-radius: 6px;
+  margin: 20px 0;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
 
+.careers > a:hover {
+  background: rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+}
+
+.careers > a:hover p {
+  color: var(--primary);
+}
+
+.careers p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--light);
+}
+
+.careers > a p:last-child {
+  font-size: 0.85em;
+  color: #999;
+  font-style: italic;
+}
 
 /* careers details */
 
