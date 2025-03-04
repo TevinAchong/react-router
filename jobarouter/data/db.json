@@ -4,43 +4,92 @@
       "id": 1,
       "title": "Jonin-Level Frontend Developer",
       "salary": 80000,
-      "location": "Hidden Leaf Village"
+      "location": "Hidden Leaf Village",
+      "description": "As a Jonin-level Frontend Developer, you will be responsible for crafting high-performance web interfaces with precision, speed, and ninja-like efficiency. Your expertise in HTML, CSS, and JavaScript frameworks will help shape the future of shinobi technology.",
+      "requirements": [
+        "Proficiency in React, Vue, or Angular",
+        "Mastery of responsive design techniques",
+        "Experience with UI/UX principles and animation effects",
+        "Ability to work in a fast-paced ninja environment"
+      ]
     },
     {
       "id": 2,
       "title": "Ramen Quality Specialist",
       "salary": 40000,
-      "location": "Ichiraku Ramen, Konoha"
+      "location": "Ichiraku Ramen, Konoha",
+      "description": "Join Ichiraku Ramen as a Ramen Quality Specialist, ensuring every bowl is crafted to perfection. Taste, analyze, and enhance flavors while upholding the legendary reputation of Konoha's favorite ramen spot.",
+      "requirements": [
+        "Exceptional taste buds and food critique skills",
+        "Deep passion for ramen and culinary arts",
+        "Ability to work long hours in a high-energy kitchen",
+        "Chakra control for precise ingredient measurement (preferred)"
+      ]
     },
     {
       "id": 3,
       "title": "Chunin-Rank Strategist",
       "salary": 65000,
-      "location": "Hidden Sand Village"
+      "location": "Hidden Sand Village",
+      "description": "Serve as a Chunin-Rank Strategist, developing tactical battle plans and optimizing mission outcomes. Work alongside elite shinobi to predict enemy movements and ensure successful operations.",
+      "requirements": [
+        "Strong analytical and problem-solving skills",
+        "Proficiency in war tactics and battlefield strategies",
+        "Ability to work under pressure during high-stakes missions",
+        "Experience with information-gathering and reconnaissance"
+      ]
     },
     {
       "id": 4,
       "title": "ANBU Intelligence Officer",
       "salary": 90000,
-      "location": "Konoha's Intelligence Division"
+      "location": "Konoha's Intelligence Division",
+      "description": "As an ANBU Intelligence Officer, you will operate in the shadows, gathering classified information and conducting top-secret investigations for Konoha’s safety. Discretion, speed, and strategic thinking are essential.",
+      "requirements": [
+        "Mastery of stealth and infiltration techniques",
+        "Ability to decrypt coded messages and gather intelligence",
+        "Strong mental resilience and unwavering loyalty",
+        "Experience in high-risk, high-reward missions"
+      ]
     },
     {
       "id": 5,
       "title": "Taijutsu Instructor",
       "salary": 55000,
-      "location": "Might Guy’s Dojo"
+      "location": "Might Guy’s Dojo",
+      "description": "Train the next generation of taijutsu masters under the guidance of legendary warriors. Inspire students to unlock the Eight Gates and push their physical limits beyond the norm.",
+      "requirements": [
+        "Exceptional hand-to-hand combat skills",
+        "Passion for teaching and mentoring young shinobi",
+        "Ability to demonstrate advanced taijutsu techniques",
+        "Endurance to train in extreme conditions"
+      ]
     },
     {
       "id": 6,
       "title": "Medical Ninja Specialist",
       "salary": 75000,
-      "location": "Hidden Leaf Hospital"
+      "location": "Hidden Leaf Hospital",
+      "description": "As a Medical Ninja Specialist, you will heal wounded shinobi on the battlefield and within the hospital. Advanced chakra control and deep medical knowledge are required to save lives.",
+      "requirements": [
+        "Expertise in medical ninjutsu and chakra healing",
+        "Knowledge of human anatomy and advanced medicine",
+        "Ability to remain calm under pressure",
+        "Experience with poison antidotes and emergency treatments"
+      ]
     },
     {
       "id": 7,
       "title": "Chakra Flow Engineer",
       "salary": 85000,
-      "location": "Hidden Cloud Village"
+      "location": "Hidden Cloud Village",
+      "description": "Design and optimize chakra-based technology to enhance shinobi abilities. Work with elite scientists to develop groundbreaking tools that push the limits of jutsu efficiency.",
+      "requirements": [
+        "Deep understanding of chakra theory and energy flow",
+        "Experience with engineering and technological enhancements",
+        "Creativity in designing new ninja tools and techniques",
+        "Collaboration with research teams on experimental projects"
+      ]
     }
   ]
 }
