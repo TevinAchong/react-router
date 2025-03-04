@@ -1,46 +1,46 @@
 {
-    "careers": [
-      {
-        "id": 1,
-        "title": "Senior React Developer",
-        "salary": 50000,
-        "location": "London, UK"
-      },
-      {
-        "id": 2,
-        "title": "Plumber",
-        "salary": 40000,
-        "location": "Bowser's Castle"
-      },
-      {
-        "id": 3,
-        "title": "Gym Leader",
-        "salary": 75000,
-        "location": "Kanto Region"
-      },
-      {
-        "id": 4,
-        "title": "Vue Developer",
-        "salary": 40000,
-        "location": "Liverpool, UK"
-      },
-      {
-        "id": 5,
-        "title": "Tutorial Maker",
-        "salary": 35000,
-        "location": "Manchester, UK"
-      },
-      {
-        "id": 6,
-        "title": "Website Manager",
-        "salary": 50000,
-        "location": "Berlin, Germany"
-      },
-      {
-        "id": 7,
-        "title": "Food Tester",
-        "salary": 30000,
-        "location": "London, UK"
-      }
-    ]
-  }
+  "careers": [
+    {
+      "id": 1,
+      "title": "Jonin-Level Frontend Developer",
+      "salary": 80000,
+      "location": "Hidden Leaf Village"
+    },
+    {
+      "id": 2,
+      "title": "Ramen Quality Specialist",
+      "salary": 40000,
+      "location": "Ichiraku Ramen, Konoha"
+    },
+    {
+      "id": 3,
+      "title": "Chunin-Rank Strategist",
+      "salary": 65000,
+      "location": "Hidden Sand Village"
+    },
+    {
+      "id": 4,
+      "title": "ANBU Intelligence Officer",
+      "salary": 90000,
+      "location": "Konoha's Intelligence Division"
+    },
+    {
+      "id": 5,
+      "title": "Taijutsu Instructor",
+      "salary": 55000,
+      "location": "Might Guy’s Dojo"
+    },
+    {
+      "id": 6,
+      "title": "Medical Ninja Specialist",
+      "salary": 75000,
+      "location": "Hidden Leaf Hospital"
+    },
+    {
+      "id": 7,
+      "title": "Chakra Flow Engineer",
+      "salary": 85000,
+      "location": "Hidden Cloud Village"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ export default function RootLayout() {
                 <h1>Jobarouter</h1>
                 {/* As opposed to Link, NavLink gives you a class attribute for your a tag */}
                 <NavLink to="/">Home</NavLink>
+                <NavLink to="careers">Careers</NavLink>
                 <NavLink to="about">About</NavLink>
                 <NavLink to="help">Help</NavLink>
             </nav>
